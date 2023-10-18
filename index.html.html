@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./ex03.css">
+    <title>Catalogo</title>
+  </head>
+
+  
+  <body>
+    <header>
+      <h1>SEJA BEM-VINDO(A)!</h1>
+      <br />
+      <p>Aqui você encontra os melhores itens de papelaria do mercado!</p>
+      <table border="1">
+        <thead>
+          <th class="titulos" colspan="3">Catalogo</th>
+        </thead>
+        <tbody>
+          <tr></tr>
+          <tr>
+            <td class="titulos">Produto</td>
+            <td>
+              <img
+                src="./imagens/crown caneta.webp"
+                alt="caneta esferografica, tinta preta"
+              />
+            </td>
+
+            <td><img src="./imagens/lapis grafitte 2b.webp" alt="" /></td>
+          </tr>
+          <tr>
+            <td class="titulos">Descrição</td>
+            <td>Caneta Esferográfica, Hawai, Esfera, Preto, EX10089P</td>
+            <td>LAPIS GRAFITE 6B FABER CASTELL</td>
+          </tr>
+          <tr>
+            <td class="titulos">Valor</td>
+            <td>R$ 5,00</td>
+            <td>R$ 10,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </header>
+    <br />
+    
+    <form action="http://symlink.dk/code/php/submit/" method="get">
+        <h2>CADASTRE AQUI</h2>
+    <hr>
+      <label for="">Nome:</label>
+      <input type="text" name="nome" id="nome" placeholder="Seu Nome" required />
+      <br>
+      <br>
+      <label for="telefone">Telefone:</label>
+      <input type="tel" name="telefone" id="telofone" required placeholder="(DDD)9.99999999">
+      <br>
+      <br>
+      <label for="Email">Email:</label>
+      <input type="email" name="Email" id="Email">
+      <br>
+       <br>
+       <label for="Cadastre"></label>
+       <input type="submit" value="Cadastre">
+
+    </form>
+    <br>
+    <br>
+    <footer style="font: italic;">Ls Papelaria</footer>
+  </body>
+</html>
